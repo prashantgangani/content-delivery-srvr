@@ -1,0 +1,23 @@
+{
+    "name": "simple-content-delivery-server",
+    "version": "1.0.0",
+    "description": "A simple content delivery server with logging functionality.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "express": "^4.21.2",
+      "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "keywords": []
+  }
